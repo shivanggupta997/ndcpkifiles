@@ -1,0 +1,46 @@
+[rootca] Generate the Private Key - ShuHaRi Root CA Private Key
+[rootca] Generate Root CA Certificate (Self Signed)
+[rootca] Export the Root CA Certicate as .cer / .crt (ShuHaRI_Labs_Root_CA_Certificate.crt)
+
+[subca] Generate the Private Key - ShuHaRi Sub CA Private Key
+[subca] Generate CSR
+[subca] Export CSR to File(ShuHari_Sub_CA_Certificate-CSR.pem)
+
+[rootca] Import CSR
+[rootca] Issue Sub CA Certificate
+[rootca] Export the Sub CA Certificate (ShuHaRi_Sub_CA-Certificate.pem)
+
+[subca] Import Sub CA Certificate exported from rootca (ShuHaRi_Sub_CA-Certificate.pem)
+
+[tinku] Generate the Private Key - Tinku Private Key
+[tinku] Generate CSR
+[tinku] Export CSR to File(Tinku's_Certificate-CSR.pem)
+
+[subca] Import CSR
+[subca] Issue Sub CA Certificate
+[subca] Export the Sub CA Certificate (tinku@shuharilabs.local-certificate_chain.pem)
+
+[tinku] Import Certificate exported from subca (tinku@shuharilabs.local-certificate_chain.pem)
+
+[tinku] Import the Root CA Certicate (ShuHaRI_Labs_Root_CA_Certificate.crt)
+[tinku] Import the Sub CA Certificate (ShuHaRi_Sub_CA-Certificate.pem)
+
+[tinku] Export Tinku's Complete Certificate chain and the private key as encrypted PKCS#12 file (tinku@shuharilabs.local-cert_with_pvt_key-encrypted.pfx)
+
+ └───Prj1
+    │   ShuHaRi_General_Template.xca
+    │
+    ├───001-RootCA
+    │       001-RootCA.xdb
+    │       ShuHaRI_Labs_Root_CA_Certificate.crt
+    │
+    ├───002-SubCA
+    │       002-SubCA.xdb
+    │       ShuHaRi_Sub_CA-Certificate.pem
+    │       ShuHari_Sub_CA_Certificate-CSR.pem
+    │
+    └───003-Tinku
+            003-Tinku.xdb
+            Tinku's_Certificate-CSR.pem
+            tinku@shuharilabs.local-certificate_chain.pem
+            tinku@shuharilabs.local-cert_with_pvt_key-encrypted.pfx

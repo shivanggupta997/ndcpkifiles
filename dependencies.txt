@@ -1,0 +1,14 @@
+sudo apt install -y  openvpn sudo wget openssh-client openssh-server links gcc apache2 apache2-utils autoconf libc6 libgd-dev make php python3 tree unzip libkrb5-dev openssl libssl-dev make curl automake autotools-dev bc build-essential dc gawk gettext libmcrypt-dev libnet-snmp-perl libssl-dev snmp iptables default-libmysqlclient-dev dos2unix libmariadb-dev-compat libmariadb-dev libmariadb-dev libtool mariadb-client mariadb-server ca-certificates libc6-dev libnet-cidr-lite-perl libtext-csv-xs-perl libxtables-dev xz-utils pkg-config automake ca-certificates gcc libc6-dev libnet-cidr-lite-perl libtext-csv-xs-perl libxtables-dev  make pkg-config unzip wget xz-utils build-essential libevent-dev libpcre2-dev libssl-dev ca-certificates libsystemd-dev tcpdump apache2 apache2-utils autoconf gcc libc6 libgd-dev make php python3 tree unzip wget libkrb5-dev openssl libssl-dev dump nginx automake ca-certificates gcc libc6-dev libnet-cidr-lite-perl libtext-csv-xs-perl libxtables-dev make pkg-config unzip wget xz-utils openvpn bison ca-certificates flex gcc libdumbnet-dev libluajit-5.1-dev libnghttp2-dev libpcap-dev libpcre3-dev libssl-dev make openssl wget zlib1g-dev python3-systemd fail2ban autoconf automake default-libmysqlclient-dev dos2unix libmariadb-dev-compat libmariadb-dev libmariadbd-dev libtool mariadb-client mariadb-server unzip apache2  p7zip  openssl iptables tree vim unzip tcpdump default-jdk curl apache2 apache2-utils autoconf gcc libc6 libgd-dev make php python3 tree unzip wget libkrb5-dev openssl libssl-dev automake autotools-dev bc build-essential dc gawk gettext libmcrypt-dev libnet-snmp-perl libssl-dev snmp nginx apache2 libsqlite3-0 links  automake ca-certificates gcc libc6-dev libnet-cidr-lite-perl libtext-csv-xs-perl libxtables-dev make pkg-config unzip wget xz-utils libevent-dev libpcre2-dev libssl-dev ca-certificates libsystemd-dev bison ca-certificates flex gcc libdumbnet-dev libluajit-5.1-dev libnghttp2-dev libpcap-dev libpcre3-dev libssl-dev make openssl wget zlib1g autoconf automake default-libmysqlclient-dev dos2unix libmariadb-dev-compat libmariadb-dev libmariadbd-dev libtool mariadb-client mariadb-server python3-systemd openssl tree vim
+
+
+
+
+
+
+
+
+
+sources.list file
+deb http://deb.debian.org/debian bookworm main
+deb http://deb.debian.org/debian bookworm-updates main
+deb [trusted=1] http://sunbeam.shuharilabs.com/sw/repo/deb12/ bookworm main
